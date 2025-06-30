@@ -9,7 +9,7 @@ app.use(express.static("public"))
 //Define a route of the root URL
 app.get('/', (req, res) => {
     res.type("html") //It's not required, but we can specify the type
-        .send(`<h1>Server del mio blog</h1>`)
+        .send(`Server del mio blog`)
 
 })
 //Add a route to get blog posts 
@@ -47,7 +47,7 @@ app.get('/api/posts', (req, res) => {
             title: "Torta paesana",
             content: "",
             img: `http://localhost:${port}/images/torta_paesana.jpeg`,
-            tags: ["sport", "sea"]
+            tags: ["", ""]
 
         }
     ];
