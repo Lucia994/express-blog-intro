@@ -16,37 +16,37 @@ app.get('/', (req, res) => {
 app.get('/api/posts', (req, res) => {
     const posts = [
         {
-            title: "Artista preferita",
-            content: "Yayoi Kusama è una dei più importanti artisti viventi del Giappone. È l'artista vivente che ha venduto di più al mondo. ",
-            img: `http://localhost:${port}/img/yayoi_kusama.jpeg`,
-            tags: ["art", "passion"]
+            title: "Ciambellone",
+            content: "",
+            img: `http://localhost:${port}/images/ciambellone.jpeg`,
+            tags: ["", ""]
 
         },
         {
-            title: "Ultimo libro letto",
-            content: "Cecità è un romanzo dello scrittore e premio Nobel per la letteratura portoghese José Saramago.",
-            img: `http://localhost:${port}/img/cecità_saramago.jpeg`,
-            tags: ["book","reading"]
+            title: "Cracker barbabietola",
+            content: "",
+            img: `http://localhost:${port}/images/cracker_barbabietola.jpeg`,
+            tags: ["",""]
 
         },
         {
-            title: "Film che non mi stanco di vedere",
-            content: "Non ha bisogno di presentazioni. Un film che merita di essere visto e rivisto",
-            img: `http://localhost:${port}/img/una_settimana_da_dio.jpg`,
-            tags: ["comedy", "cinema"]
+            title: "Pane fritto dolce",
+            content: "",
+            img: `http://localhost:${port}/images/pane_fritto_dolce.jpeg`,
+            tags: ["", ""]
 
         },
         {
-            title: "Posti che vorrei visitare",
-            content: "Il Vietnam è caratterizzato da cultura, paesaggi naturali di incredibile bellezza, città caotiche e villaggi che sorgono sulle rive dei fiumi e tra le montagne.",
-            img: `http://localhost:${port}/img/vietnam.jpg`,
-            tags: ["travel", "world"]
+            title: "Pasta barbabietola",
+            content: "",
+            img: `http://localhost:${port}/images/pasta_barbabietola.jpeg`,
+            tags: ["", ""]
 
         },
         {
-            title: "Da fare",
-            content: "Il surf è uno sport acquatico che consiste nel cavalcare le onde del mare utilizzando una tavola da surf.",
-            img: `http://localhost:${port}/img/surf.jpeg`,
+            title: "Torta paesana",
+            content: "",
+            img: `http://localhost:${port}/images/torta_paesana.jpeg`,
             tags: ["sport", "sea"]
 
         }
