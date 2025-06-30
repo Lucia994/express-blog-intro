@@ -4,6 +4,7 @@ const express = require('express')
 const app = express()
 //Define the port you want to use for the server listener
 const port = 3000
+const postsRouter = require("./routers/posts");
 app.use(express.static("public"))
 
 //Define a route of the root URL
@@ -12,6 +13,8 @@ app.get('/', (req, res) => {
         .send(`Server del mio blog`)
 
 })
+
+app.use("/posts", postsRouter)
 
 //Start the server listener
 app.listen(port, () => {
