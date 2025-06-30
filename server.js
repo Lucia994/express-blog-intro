@@ -12,48 +12,7 @@ app.get('/', (req, res) => {
         .send(`Server del mio blog`)
 
 })
-//Add a route to get blog posts 
-app.get('/api/posts', (req, res) => {
-    const posts = [
-        {
-            title: "Ciambellone",
-            content: "",
-            img: `http://localhost:${port}/images/ciambellone.jpeg`,
-            tags: ["", ""]
 
-        },
-        {
-            title: "Cracker barbabietola",
-            content: "",
-            img: `http://localhost:${port}/images/cracker_barbabietola.jpeg`,
-            tags: ["",""]
-
-        },
-        {
-            title: "Pane fritto dolce",
-            content: "",
-            img: `http://localhost:${port}/images/pane_fritto_dolce.jpeg`,
-            tags: ["", ""]
-
-        },
-        {
-            title: "Pasta barbabietola",
-            content: "",
-            img: `http://localhost:${port}/images/pasta_barbabietola.jpeg`,
-            tags: ["", ""]
-
-        },
-        {
-            title: "Torta paesana",
-            content: "",
-            img: `http://localhost:${port}/images/torta_paesana.jpeg`,
-            tags: ["", ""]
-
-        }
-    ];
-
-    res.json(posts);
-})
 //Start the server listener
 app.listen(port, () => {
     console.log(`Example app listening on port http://localhost:${port}`)
