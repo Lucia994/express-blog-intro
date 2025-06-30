@@ -1,9 +1,10 @@
 const express = require ("express")
 const router = express.Router();
+const port = 3000
 
 //Add a route to get blog posts 
 //Index
-app.get('/', (req, res) => {
+router.get('/', (req, res) => {
     const posts = [
         {
             title: "Ciambellone",
@@ -44,8 +45,9 @@ app.get('/', (req, res) => {
 
     res.json(posts);
 })
+
 /*Show (read)*/ 
-router.get ('/', (req, res) =>{
+router.get ('/:id', (req, res) =>{
      const id = req.params.id
     res.send(`You want to show post's details with id:${id}`)
 
