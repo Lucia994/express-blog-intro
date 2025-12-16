@@ -1,10 +1,16 @@
 import express from "express"; //Import express
-const app = express (); //Initialize express by invoking it as a function and saving the result in a variable
-const port = 3000; 
+import postsList from "./data.js";
+const app = express(); //Initialize express by invoking it as a function and saving the result in a variable
+const port = 3000;
 
 
-app.get("/", (req, res) =>{    //Define the first route
-res.send("Hello World")      
+
+app.get("/", (req, res) => {    //Define the first route
+    res.send("Server del mio blog")
+})
+
+app.get("/bacheca", (req, res) => {    //Define the "bacheca" route
+    res.json(postsList)
 })
 
 app.listen(port, () => {
