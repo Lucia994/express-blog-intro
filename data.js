@@ -3,37 +3,37 @@ const postsList =
         {
             title: "The most cryptic work of art ever Giorgione's Storm ",
             content: "The Tempest is perhaps Giorgione's most famous painting, but it is also his most mysterious. Dozens of interpretations, and none yet conclusive. ",
-            img: "http://localhost:3000/img/Giorgione_La_Tempesta.jpg",
+            img: "/img/Giorgione_La_Tempesta.jpg",
             tags: ["art", "mystery"]
         },
         {
             title: "Libro consigliato Kurt Vonnegut  \"If This Isn't Nice, What Is?\" ",
             content: "If This Isn't Nice, What Is?: Advice to the Young (Seven Stories Press) is a 2013 collection of nine commencement speeches from Kurt Vonnegut.",
-            img: "http://localhost:3000/img/quando_siete_felici_fateci_caso.jpg",
+            img: "/img/quando_siete_felici_fateci_caso.jpg",
             tags: ["happiness", "motivation"]
         },
         {
             title: "The story of the worst film in the history of cinema",
             content: "The true story of the friendship between Greg Sestero and Tommy Wiseau that began when they collaborated on the film 'The Room,' considered one of the worst films ever made.",
-            img: "http://localhost:3000/img/the_disaster_artist.jpg",
+            img: "/img/the_disaster_artist.jpg",
             tags: ["art", "mystery"]
         },
         {
             title: "Dutch courage Alcohol improves foreign language skills",
             content: "A new study published in the Journal of Psychopharmacology, conducted by researchers from the University of Liverpool, Maastricht University, shows that bilingual speakers ability to speak a second language is improved after they have consumed a low dose of alcohol.",
-            img: "http://localhost:3000/img/beer.jpg",
+            img: "/img/beer.jpg",
             tags: ["beer", "language"]
         },
         {
             title: "Best animated movie ever: Shrek",
             content: "Shrek is widely considered one of the best animated films of all time for its clever writing, all-ages humor, and cultural impact, winning the first Academy Award for Best Animated Feature and becoming an icon that defied competition from Pixar, setting a new standard for animation.",
-            img: "http://localhost:3000/img/shrek.jpeg",
+            img: "/img/shrek.jpeg",
             tags: ["movie", "Shrek"]
         },
         {
             title: "Choose a dixit card and I'll tell you who you are...",
             content: "Dixit , by designer Jean-Louis Roubira, has been part of the gaming landscape for a good fifteen years (2008). It is one of the best known, most accessible and most recommended atmosphere (or party ) games.",
-            img: "http://localhost:3000/img/dixit.jpg",
+            img: "/img/dixit.jpg",
             tags: ["dixit", "games"]
         }
     ]
